@@ -67,10 +67,8 @@ int main() {
             cin >> B[i][j];
         }
     }
-
-    cout << "Matrix A:\n";
+    
     printMatrix(A, "A");
-    cout << "Matrix B:\n";
     printMatrix(B, "B");
 
     vector<vector<int>> resultAB = matrixMultiply(A, B);

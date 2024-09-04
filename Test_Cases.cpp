@@ -5,10 +5,10 @@ using namespace std;
 
 // Function to multiply two matrices
 vector<vector<int>> matrixMultiply(const vector<vector<int>>& A, const vector<vector<int>>& B) {
-    int rowsA = A.size();      // Number of rows in matrix A
-    int colsA = A[0].size();   // Number of columns in matrix A
-    int rowsB = B.size();      // Number of rows in matrix B
-    int colsB = B[0].size();   // Number of columns in matrix B
+    int rowsA = A.size();      
+    int colsA = A[0].size();  
+    int rowsB = B.size();     
+    int colsB = B[0].size();  
 
     // Check if matrices can be multiplied
     if (colsA != rowsB) {
